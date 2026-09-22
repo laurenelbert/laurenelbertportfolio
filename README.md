@@ -12,5 +12,3 @@ Open `index.html` in a browser, or run a local static server from this folder (f
 - Shared styling is in `home/home.css`.
 - Replace each `.image-placeholder` block with an image when your project images are ready. Keep image descriptions accessible with useful `alt` text.
 - Contact details and social links are ordinary links in the HTML and can be updated there.
-
-The old `home/home.html` and `home/projects.html` URLs redirect to the root pages.
