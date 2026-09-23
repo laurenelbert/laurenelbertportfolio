@@ -208,6 +208,10 @@ nav a[aria-current="page"] {
   line-height: 0.91;
 }
 
+#about-title {
+  font-size: clamp(40px, 7vw, 100px);
+}
+
 .accent-word {
   display: inline-block;
   min-width: 11ch;
@@ -398,7 +402,7 @@ nav a[aria-current="page"] {
 }
 
 .projects-intro h1 {
-  font-size: clamp(48px, 9vw, 120px);
+  font-size: clamp(48px, 9vw, 130px);
 }
 
 .projects-intro > p:last-child {
@@ -595,8 +599,13 @@ nav a[aria-current="page"] {
   }
 
   .home-page .hero h1,
-  #about-title {
+  #about-title,
+  .projects-intro h1 {
     font-size: clamp(32px, 9.8vw, 66px);
+  }
+
+  #about-title {
+    font-size: clamp(28px, 8.3vw, 56px);
   }
 
   .hero h1 {
