@@ -23,4 +23,5 @@ Open `index.html` in a browser, or run a local static server from this folder (f
   </div>
   ```
 
-- Put PDF files in an `assets` folder at the repository root, then link to the file path as shown above.
+- Project PDFs and the project video are stored in `assets/projects/` and linked from their matching project entries.
+- The two supplied `Project_3_Video` files were identical, so only one copy is included.
