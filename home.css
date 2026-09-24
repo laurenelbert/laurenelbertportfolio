@@ -120,30 +120,29 @@ nav {
   transform: translateX(-50%);
 }
 
-.wordmark {
+.site-logo-link {
   display: inline-flex;
   align-items: center;
-  color: var(--surface);
-  font-family: "helvetica-lt-pro", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  letter-spacing: -0.035em;
-  line-height: 1;
   text-decoration: none;
 }
 
-.site-header > .wordmark:hover,
-.site-footer > .wordmark:hover {
-  color: var(--surface);
+.site-logo-link:hover {
   text-decoration: none;
 }
 
-.site-header > .wordmark {
+.site-logo {
+  display: block;
+  width: 160px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-header > .site-logo-link {
   position: relative;
   z-index: 1;
 }
 
-.site-footer > .wordmark {
+.site-footer > .site-logo-link {
   margin-right: auto;
 }
 
@@ -431,6 +430,13 @@ nav a[aria-current="page"] {
   aspect-ratio: 1.12;
 }
 
+.psalms-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: right center;
+}
+
 .project-video {
   display: block;
   width: 100%;
@@ -586,8 +592,9 @@ nav a[aria-current="page"] {
     transform: none;
   }
 
-  .site-header > .wordmark {
-    font-size: clamp(14px, 4.4vw, 18px);
+  .site-header > .site-logo-link .site-logo {
+    width: clamp(120px, 36vw, 150px);
+    height: auto;
   }
 
   .hero {
@@ -730,8 +737,8 @@ nav a[aria-current="page"] {
     font-size: 11px;
   }
 
-  .site-header > .wordmark {
-    font-size: 14px;
+  .site-header > .site-logo-link .site-logo {
+    width: 120px;
   }
 
   .contact-links {
