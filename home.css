@@ -447,6 +447,15 @@ nav a[aria-current="page"] {
   aspect-ratio: 1.12;
 }
 
+.project-image.hazels-logo-image {
+  display: block;
+  width: 100%;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #fff;
+}
+
 .project-video {
   display: block;
   width: 100%;
