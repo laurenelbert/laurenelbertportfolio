@@ -434,6 +434,13 @@ nav a[aria-current="page"] {
   aspect-ratio: 1.12;
 }
 
+.project-entry > .project-image,
+.project-entry > .project-video {
+  position: sticky;
+  top: 92px;
+  align-self: start;
+}
+
 .project-image.project-slide-image {
   display: block;
   width: 100%;
@@ -711,6 +718,11 @@ nav a[aria-current="page"] {
   .project-entry {
     grid-template-columns: 1fr;
     gap: 26px;
+  }
+
+  .project-entry > .project-image,
+  .project-entry > .project-video {
+    position: static;
   }
 
   .project-image {
